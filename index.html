@@ -15,22 +15,57 @@
     <body>
         <main>
             <h1>Hello! I am Tharu Atit Kumar</h1>
-            <p>I am from Nepal. I am studying computer science in Seoul Theological University.</p>
+            <p>I am from Nepal. I am studying computer science in <a href="https://www.stu.ac.kr" target="_blank">Seoul Theological University</a>.</p>
             <p>My English typing speed measured this week is 30 words per minute.</p>
+            
+            <h2>My Interests & Technologies</h2>
+            <ul>
+                <li>HTML5 & Web Standards</li>
+                <li>Artificial Intelligence & Prompt Engineering</li>
+                <li>Global Cultural Exchange</li>
+            </ul>
+
+            <h2>My Daily Routine / Top 3 Goals</h2>
+            <ol>
+                <li>Measure English typing speed on Monkeytype (Target: 50+ WPM)</li>
+                <li>Build practical coding skills through cumulative assignments</li>
+                <li>Actively participate in class and collaborate with peers</li>
+            </ol>
       
             <h2>My Favorite Photo</h2>
             <div>
-                <img src="https://i.ibb.co/N6pCLT82/64216b091b59e7001de155f4.jpg" alt="Gargantua Black Hole from Interstellar" width="500" height="300">
+                <img src="space.jpg" alt="Gargantua Black Hole from Interstellar" width="500" height="300">
             </div>
 
             <h2>About My Hometown</h2>
             <p>I grew up in Gulariya. It is known for its beautiful scenery, rich culture, wildlife and friendly people.</p>
+
+            <hr>
+
+            <form>
+                <fieldset>
+                    <legend>Leave a Message (Guestbook)</legend>
+
+                    <p>
+                        <label for="visitor-name">Your Name:</label><br>
+                        <input type="text" id="visitor-name" name="visitor-name" placeholder="e.g., Alex Kim" required>
+                    </p>
+
+                    <p>
+                        <label for="visitor-email">Your Email:</label><br>
+                        <input type="email" id="visitor-email" name="visitor-email" placeholder="name@example.com" required>
+                    </p>
+
+                    <p>
+                        <label for="visitor-message">Your Message:</label><br>
+                        <textarea id="visitor-message" name="visitor-message" rows="4" cols="45" placeholder="Share your greeting, feedback, or thoughts..."></textarea>
+                    </p>
+
+                    <p>
+                        <button type="submit">Submit Message</button>
+                    </p>
+                </fieldset>
+            </form>
         </main>
-
-        <hr>
-
-        <footer>
-            <p>Created during Week 3 HTML Basics practice.</p>
-        </footer>
     </body>
 </html>
